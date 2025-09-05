@@ -1,53 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif&display=swap" rel="stylesheet">
-    <metadata author="Kasee Kennedy">
-    <meta name="description" content="Kasee Kennedy's WDD131 Project">
-    <link rel="stylesheet" href="styles/base.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kasee Kennedy| WDD131</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 - Dynamic Web Fundamentals - Your Name</title>
+  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Your Full Name, a beginner web development course covering HTML, CSS, and JavaScript fundamentals.">
+  <meta name="author" content="Your Full Name">
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="pra.css">
+
+  
+  <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <header>
- <span class="title">WDD 131-Dynamic Web Fundamentals</span>
-
- <nav>
-	<ul class="navigation">
-		<li><a href="www.linkedin.com/in/kasee-kennedy-4a9a66355" title="linkedin">Linkedin</a></li>
-		<li><a href="https://byupw.instructure.com/." title="Canvas">Canvas</a></li>
-		<li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/philip/4?lang=eng" title="Scripture">Scripture</a></li>
-		<li><a href="#" title="Final Project">Final Project</a></li>
-	</ul>
-</nav>
+  <header>
+    <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+    <nav>
+      <a href="www.linkedin.com/in/kasee-kennedy-4a9a66355">LinkedIn</a>
+      <a href="https://byupw.instructure.com/">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/philip/4?lang=eng" title="Scripture">Scriptures</a>
+      <a href="#" title="Final Project">Final Project</a>
+    </nav>
 </header>
-<main> 
-    <section class="card">
-        <h2>About Me</h2>
-        <p>My name is Kasee Kennedy. I am currently a student at BYU-Idaho, and also a road safety volunteer For the National Safety Partnership of Liberia. I am working towards my degree in Web Design and Development. 
-        </p>
-        <img src="images/profile.jpg" alt="Profile Picture">
-        </section>
-    <section class="card">
+    </nav>
+  </header>
 
-        <h2>Paynesville , Liberia</h2>
-        <p>Liberia is a country located on the west coast of Africa. It is bordered by Sierra Leone, Guinea, and Côte d'Ivoire. The capital city of Liberia is Monrovia, which is also the largest city in the country. Liberia has a rich history and culture, with a diverse population that includes people from different ethnic groups, including the Mende, the Mano, and the Kriol. The country has a diverse economy, with agriculture, mining, and logging being the main industries. Liberia is also known for its beautiful beaches and natural beauty, which attracts tourists from around the world. Overall, Liberia is a unique and fascinating country with a rich history and culture. 
-        </p>
-        <img src="images/lbr.jpg" alt="Liberian Flag">
-    </section>
+  <main>
+   
+    <section class="left">
+    <h1>Kasee Kennedy</h1>
+
+    <div class="card about-me">
+      <h2>About Me</h2>
+      <div class="about-section">
+        <img src="images/your-photo.jpg" alt="Your profile photo">
+        <p>Write a short introduction about yourself here...</p>
+      </div>
+
+      <div class="about-section">
+        <img src="images/hobby.jpg" alt="A hobby or interest image">
+        <p>Share something about your hobbies, goals, or what excites you about this course.</p>
+      </div>
+    </div>
+  </section>
+
+   
+  <aside class="right">
+    <div class="card">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/">MDN Docs</a></li>
+        <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+        <li><a href="https://javascript.info/">JavaScript.info</a></li>
+      </ul>
+    </div>
+  </aside>
 </main>
-<div class="right-sidebar">Aside Content</div>
-<footer >
-    <p> &copy; 2024 Kasee Kennedy|Liberia
-        <span id="currentyear"></span>
+
+  <footer>
+    <p>
+      &copy; <span id="currentyear"></span> | Kasee Kennedy | Liberia
     </p>
-    <p id="lastModified"> </p>
-</footer>
-
-
-    
+    <p id="lastModified"></p>
+  </footer>
 </body>
 </html>
