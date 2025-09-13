@@ -128,7 +128,7 @@ figcaption {
         margin-top: 20px;
 }
 
-/* Media queries for responsive design */
+
 @media screen and (max-width: 799px) {
     .hamburger {
         display: flex;
